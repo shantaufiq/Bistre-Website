@@ -14149,7 +14149,7 @@ xclip
 
 .sub-title {
   padding: 7px 15px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #000000;
   border-radius: 4px;
   text-transform: uppercase;
   color: #141414;
@@ -15538,7 +15538,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   }
 }
 .banner-one-wrapper .title .border-bottom-1 {
-  color: #A8A8A8;
+  color: #8a7363;
 }
 .banner-one-wrapper .para-wraph {
   position: absolute;
@@ -18005,8 +18005,8 @@ body.coming-soon {
   font-size: 16px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #74787C;
-  border: 1px solid #282828 !important;
+  color: #ffffff;
+  border: 1px solid #ffffff !important;
   border-radius: 100%;
   position: relative;
   overflow: hidden;
@@ -18016,7 +18016,7 @@ body.coming-soon {
   min-height: 160px;
 }
 .rts-mouse-move-button .rts-btn-mouse-move i {
-  color: #74787C;
+  color: #ffffff;
   position: absolute;
   left: 120px;
   top: 87px;
@@ -20075,6 +20075,15 @@ body.coming-soon {
   text-transform: uppercase;
   line-height: 1.1;
 }
+
+.case-studies .title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
 @media only screen and (max-width: 767px) {
   .bg-dark-1 .title {
     font-size: 36px;
@@ -20090,6 +20099,15 @@ body.coming-soon {
 .bg-dark-1 .sub-title {
   border-color: #141414;
   color: #fff;
+  display: block;
+  margin-bottom: 30px;
+  max-width: max-content;
+  padding: 8px 16px;
+}
+
+.case-studies .sub-title {
+  border-color: #141414;
+  color: #000000;
   display: block;
   margin-bottom: 30px;
   max-width: max-content;
@@ -20278,11 +20296,12 @@ body.coming-soon {
   margin: 0;
   min-width: 319px;
   height: 260px;
-  border-right: 1px dashed #282828;
+  border-right: 1px dashed #6a5b51;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .counter-up-wrapper .counter-single:first-child {
   border-left: 1px solid transparent;
 }
@@ -20322,6 +20341,7 @@ body.coming-soon {
   line-height: 90px;
   position: relative;
 }
+
 .counter-up-wrapper .counter-single .inner .title::after {
   position: absolute;
   content: "";
@@ -20329,7 +20349,7 @@ body.coming-soon {
   bottom: -10px;
   height: 1px;
   width: 50px;
-  background: #282828;
+  background: #ffffff;
   transform: translateX(-50%);
 }
 @media only screen and (max-width: 1199px) {
@@ -20360,7 +20380,7 @@ body.coming-soon {
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
-  color: #74787C;
+  color: #ffffff;
   margin-top: 30px;
 }
 
@@ -22620,7 +22640,7 @@ main {
 .approch-area-left .title-area-left-wrapper .pre-title {
   padding: 7px 16px;
   border-radius: 4px;
-  border: 1px solid #141414;
+  border: 1px solid #ffffff;
   color: #fff;
   margin-bottom: 20px;
   display: block;
@@ -22669,7 +22689,7 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #74787C;
+  color: #e9e9e9;
 }
 
 .our-approch-area-style-one {
@@ -22685,7 +22705,8 @@ main {
 
 .single-approach-area-start {
   padding: 32px;
-  background-color: #111111;
+  /*! background-color: #111111; */
+  background-color: #ffffff;
   border-radius: 6px;
   position: relative;
   margin-bottom: 20px;
@@ -22724,16 +22745,16 @@ main {
   content: "02" !important;
 }
 .single-approach-area-start.two::before {
-  background-image: url(../images/banner/24.jpg);
+  background-image: url(../images/banner/banner-creative-content.jpg);
 }
 .single-approach-area-start.three::after {
   content: "03" !important;
 }
 .single-approach-area-start.three::before {
-  background-image: url(../images/banner/25.jpg);
+  background-image: url(../images/banner/banner-web.jpg);
 }
 .single-approach-area-start::before {
-  background-image: url(../images/banner/03.png);
+  background-image: url(../images/banner/banner-xr.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22751,6 +22772,7 @@ main {
 }
 .single-approach-area-start:hover .title {
   font-style: italic;
+  color: #fff;
 }
 .single-approach-area-start:hover .title::after {
   width: 100%;
@@ -22792,7 +22814,8 @@ main {
   transition: 0.3s;
 }
 .single-approach-area-start .title {
-  color: #fff;
+  /*! color: #fff; */
+  color: #414141;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 24px;
@@ -27675,7 +27698,7 @@ body::-webkit-scrollbar-thumb {
 .progress-wrap svg {
   color: var(--color-primary);
   border-radius: 50%;
-  background: #ededed;
+  background: #ffffff;
   mix-blend-mode: exclusion;
 }
 
