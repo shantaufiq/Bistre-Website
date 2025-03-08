@@ -15473,7 +15473,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   background-position: center;
   background-repeat: repeat;
   height: 1080px;
-  background-color: #0E0E0E;
+  background-color: #3d2b1f;
 }
 
 .banner-one-wrapper .title {
@@ -20246,6 +20246,11 @@ body.coming-soon {
   animation: rotateIt 17s linear infinite;
 }
 
+#counter-cs{
+  flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .counter-up-wrapper {
   display: flex;
   align-items: center;
@@ -22598,7 +22603,7 @@ main {
 }
 
 .bg-dark-1 {
-  background: #0E0E0E;
+  background: #ffffff00;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -24896,7 +24901,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 
 .bg-dark-1 {
-  background-color: #0E0E0E;
+  background-color: #3d2b1f;
 }
 
 .blog-title-area-h4 {
