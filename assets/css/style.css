@@ -22917,7 +22917,7 @@ main {
 
 @media only screen and (max-width: 767px) {
   .carticle-slide-active .title {
-    color: #fff;
+    color: #000000;
     font-weight: 700;
     font-size: 28px;
     text-transform: uppercase;
