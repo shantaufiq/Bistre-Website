@@ -20069,7 +20069,7 @@ body.coming-soon {
 }
 
 .bg-dark-1 .title {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-size: 48px;
   text-transform: uppercase;
@@ -22623,7 +22623,11 @@ main {
 }
 
 .bg-dark-1 {
-  background: #ffffff00;
+  background: #ffffff;
+}
+
+.custom-color {
+  background: #3d2b1f;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -22706,7 +22710,7 @@ main {
 .single-approach-area-start {
   padding: 32px;
   /*! background-color: #111111; */
-  background-color: #ffffff;
+  background-color: #1f1f1f !important;
   border-radius: 6px;
   position: relative;
   margin-bottom: 20px;
@@ -23090,6 +23094,7 @@ main {
   display: flex;
   align-items: flex-start;
   gap: 99px;
+  justify-content: center;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .footer-main-wrapper-one {
@@ -26779,6 +26784,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   transition: color 0.5s, opacity 0.5s, transform 0.5s;
   transition: color 0.5s, opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
 }
+
 .rts-offcanvas-wrapper .container-menu .action-menu .burger .icon-burger {
   will-change: transform;
   -webkit-transition: color 0.5s, -webkit-transform 0.3s;
@@ -29377,3 +29383,10 @@ body.servi-ce-details .rts-footer-two-area {
   display: none;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+/* custom */
+
+.custom-more-info-btn{
+  border: 1px solid #ffffff !important;
+}
