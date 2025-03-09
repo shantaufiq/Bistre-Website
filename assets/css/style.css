@@ -14149,7 +14149,7 @@ xclip
 
 .sub-title {
   padding: 7px 15px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #000000;
   border-radius: 4px;
   text-transform: uppercase;
   color: #141414;
@@ -15473,7 +15473,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   background-position: center;
   background-repeat: repeat;
   height: 1080px;
-  background-color: #0E0E0E;
+  background-color: #3d2b1f;
 }
 
 .banner-one-wrapper .title {
@@ -15538,7 +15538,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
   }
 }
 .banner-one-wrapper .title .border-bottom-1 {
-  color: #A8A8A8;
+  color: #8a7363;
 }
 .banner-one-wrapper .para-wraph {
   position: absolute;
@@ -18005,8 +18005,8 @@ body.coming-soon {
   font-size: 16px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #74787C;
-  border: 1px solid #282828 !important;
+  color: #ffffff;
+  border: 1px solid #ffffff !important;
   border-radius: 100%;
   position: relative;
   overflow: hidden;
@@ -18016,7 +18016,7 @@ body.coming-soon {
   min-height: 160px;
 }
 .rts-mouse-move-button .rts-btn-mouse-move i {
-  color: #74787C;
+  color: #ffffff;
   position: absolute;
   left: 120px;
   top: 87px;
@@ -20069,12 +20069,21 @@ body.coming-soon {
 }
 
 .bg-dark-1 .title {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-size: 48px;
   text-transform: uppercase;
   line-height: 1.1;
 }
+
+.case-studies .title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
 @media only screen and (max-width: 767px) {
   .bg-dark-1 .title {
     font-size: 36px;
@@ -20090,6 +20099,15 @@ body.coming-soon {
 .bg-dark-1 .sub-title {
   border-color: #141414;
   color: #fff;
+  display: block;
+  margin-bottom: 30px;
+  max-width: max-content;
+  padding: 8px 16px;
+}
+
+.case-studies .sub-title {
+  border-color: #141414;
+  color: #000000;
   display: block;
   margin-bottom: 30px;
   max-width: max-content;
@@ -20246,6 +20264,11 @@ body.coming-soon {
   animation: rotateIt 17s linear infinite;
 }
 
+#counter-cs{
+  flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .counter-up-wrapper {
   display: flex;
   align-items: center;
@@ -20273,11 +20296,12 @@ body.coming-soon {
   margin: 0;
   min-width: 319px;
   height: 260px;
-  border-right: 1px dashed #282828;
+  border-right: 1px dashed #6a5b51;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .counter-up-wrapper .counter-single:first-child {
   border-left: 1px solid transparent;
 }
@@ -20317,6 +20341,7 @@ body.coming-soon {
   line-height: 90px;
   position: relative;
 }
+
 .counter-up-wrapper .counter-single .inner .title::after {
   position: absolute;
   content: "";
@@ -20324,7 +20349,7 @@ body.coming-soon {
   bottom: -10px;
   height: 1px;
   width: 50px;
-  background: #282828;
+  background: #ffffff;
   transform: translateX(-50%);
 }
 @media only screen and (max-width: 1199px) {
@@ -20355,7 +20380,7 @@ body.coming-soon {
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
-  color: #74787C;
+  color: #ffffff;
   margin-top: 30px;
 }
 
@@ -22598,7 +22623,11 @@ main {
 }
 
 .bg-dark-1 {
-  background: #0E0E0E;
+  background: #ffffff;
+}
+
+.custom-color {
+  background: #3d2b1f;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -22615,7 +22644,7 @@ main {
 .approch-area-left .title-area-left-wrapper .pre-title {
   padding: 7px 16px;
   border-radius: 4px;
-  border: 1px solid #141414;
+  border: 1px solid #ffffff;
   color: #fff;
   margin-bottom: 20px;
   display: block;
@@ -22664,7 +22693,7 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #74787C;
+  color: #e9e9e9;
 }
 
 .our-approch-area-style-one {
@@ -22680,7 +22709,8 @@ main {
 
 .single-approach-area-start {
   padding: 32px;
-  background-color: #111111;
+  /*! background-color: #111111; */
+  background-color: #1f1f1f !important;
   border-radius: 6px;
   position: relative;
   margin-bottom: 20px;
@@ -22719,16 +22749,16 @@ main {
   content: "02" !important;
 }
 .single-approach-area-start.two::before {
-  background-image: url(../images/banner/24.jpg);
+  background-image: url(../images/banner/banner-creative-content.jpg);
 }
 .single-approach-area-start.three::after {
   content: "03" !important;
 }
 .single-approach-area-start.three::before {
-  background-image: url(../images/banner/25.jpg);
+  background-image: url(../images/banner/banner-web.jpg);
 }
 .single-approach-area-start::before {
-  background-image: url(../images/banner/03.png);
+  background-image: url(../images/banner/banner-xr.jpg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22746,6 +22776,7 @@ main {
 }
 .single-approach-area-start:hover .title {
   font-style: italic;
+  color: #fff;
 }
 .single-approach-area-start:hover .title::after {
   width: 100%;
@@ -22787,7 +22818,8 @@ main {
   transition: 0.3s;
 }
 .single-approach-area-start .title {
-  color: #fff;
+  /*! color: #fff; */
+  color: #414141;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 24px;
@@ -23062,6 +23094,7 @@ main {
   display: flex;
   align-items: flex-start;
   gap: 99px;
+  justify-content: center;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .footer-main-wrapper-one {
@@ -24896,7 +24929,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 }
 
 .bg-dark-1 {
-  background-color: #0E0E0E;
+  background-color: #3d2b1f;
 }
 
 .blog-title-area-h4 {
@@ -26751,6 +26784,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
   transition: color 0.5s, opacity 0.5s, transform 0.5s;
   transition: color 0.5s, opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
 }
+
 .rts-offcanvas-wrapper .container-menu .action-menu .burger .icon-burger {
   will-change: transform;
   -webkit-transition: color 0.5s, -webkit-transform 0.3s;
@@ -27670,7 +27704,7 @@ body::-webkit-scrollbar-thumb {
 .progress-wrap svg {
   color: var(--color-primary);
   border-radius: 50%;
-  background: #ededed;
+  background: #ffffff;
   mix-blend-mode: exclusion;
 }
 
@@ -29349,3 +29383,10 @@ body.servi-ce-details .rts-footer-two-area {
   display: none;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+/* custom */
+
+.custom-more-info-btn{
+  border: 1px solid #ffffff !important;
+}
